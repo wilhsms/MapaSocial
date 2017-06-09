@@ -1,6 +1,6 @@
-#MAPA SOCIAL
+# MAPA SOCIAL
 
-##Introdução
+## Introdução
 
 O Mapa Social é um exemplo de aplicação web que visa apresentar como construir sistemas de apresentação de dados georreferenciados com base nos moldes dos Geographic Information System (GIS) utilizando tecnologias livres.Nesta aplicação inicial demonstramos como é possível apresentar em um mapa 110 estações meteorológicas do estado do Espírito Santo. Para o desenvolvimento da aplicação utilizamos as seguintes tecnologias:
 
@@ -17,7 +17,7 @@ O Mapa Social é um exemplo de aplicação web que visa apresentar como construi
 * Dificuldade em converter e analisar dados de diferentes fontes e formatos;
 * Dificuldade em plotar pontos em mapas para aplicações que serão utilizadas em diversos dispositivo móveis; 
 
-##Como solucionamos os problemas?
+## Como solucionamos os problemas?
 
 ### Converter e analisar dados de diferentes fontes e formatos
 
@@ -126,7 +126,7 @@ Para plotar um ponto no mapa é um trabalho mais simples do que o ato de criar o
    L.marker([latitude, longitude]).addTo(map).bindPopup("<b>Cidade: </b>"+value+" <br> <b>Chuva: </b>"+chuva+" mm");
 ```
 
-##Instalação
+## Instalação
 
 __É importante comentar que a instalação foi realizada em um ambiente Linux__.
 Etapas para a construção do ambiente:
@@ -141,7 +141,7 @@ Etapas para a construção do ambiente:
 * __Instalar o Flask, Pandas, SQLAlchemy e tudo mais que precisamos para o projeto e que não foi instalado__: dentro da pasta mapasocial tem um arquivo chamado __requeriment.txt__ que contém o nome de todas as bibliotecas necessárias para que o projeto funcione. Para instalar esses bibliotecas, basta executar o seguinte comando: `pip install -r requeriments.txt`. Magicamente o pip irá instalar tudo que é necessário para o projeto.
 * __Executar a aplicação__: digite o seguinte comando: `python run.py`. Após isso abra o navegador e digite: `http://localhost:5000` e veja a magia acontecer :)
 
-##Fontes dos dados
+## Fontes dos dados
 
 O Banco de dados foi gerado a patir de médias mensais de precipitação referentes ao período de 30 anos (1977 a 2006), obtidas por meio do sistema de informações hidrológicas (HidoWEB) da ANA (Agencia Nascional de Águas), INMET (Instituto de Nascional de Meteorologia), INCAPER (Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural). Para nosso exemplo, o banco de dados contém somente as seguintes informações:
 * Código das estações meteorológicas
@@ -150,13 +150,13 @@ O Banco de dados foi gerado a patir de médias mensais de precipitação referen
 * Longitude
 * Latitude
 
-##Dicas de leitura
+## Dicas de leitura
 * [__How To Structure Large Flask Applications__](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
 * [__Integrando SQLAlchemy e Flask__](https://pythonhosted.org/Flask-SQLAlchemy/quickstart.html)
 * [__10 minutes to Pandas__](http://pandas.pydata.org/pandas-docs/stable/10min.html)
 * [__Virtualenv: Ambientes virtuais para desenvolvimento__](https://pythonhelp.wordpress.com/2012/10/17/virtualenv-ambientes-virtuais-para-desenvolvimento/)
 * [__Construindo uma aplicação com Flask, Postgresql e OpenShift__](https://blog.openshift.com/build-your-app-on-openshift-using-flask-sqlalchemy-and-postgresql-92/)
 
-##Autores
+## Autores
 * [Paulo Sérgio dos Santos Júnior](paulossjunior@gmail.com)
 * [Moises Savedra Omena](omena@gmail.com)
