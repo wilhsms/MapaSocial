@@ -22,7 +22,7 @@ function getData()
 
   $.ajax({
 		type: "get",
-		url: "http://127.0.0.1:5000/estacoes",
+		url: "/estacoes",
 		cache: false,
 	  Accept : "application/json",
     contentType: "application/json",
