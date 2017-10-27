@@ -1,6 +1,6 @@
 import json
 from app import db
-import socket, struct, fcntl
+#import socket, struct, fcntl
 """Classe para exportar os dados """
 class Ponto ():
 

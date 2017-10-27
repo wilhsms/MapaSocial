@@ -3,3 +3,10 @@
 **/*.pyc
 .DS_Store
 app.db
+
+env/
+venv/
+myenv/
+myvenv/
+virtualenv/
+myvirtualenv/

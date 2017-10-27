@@ -1,3 +1,5 @@
 flask
-sqlalchemyi
+sqlalchemy
 Flask-SQLAlchemy
+pandas
+psycopg2
